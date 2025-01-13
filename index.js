@@ -22,10 +22,16 @@ export function addCopyButton(options = {}) {
                 filterFocus &&
                 preHasDiff &&
                 preHasFocused &&
-                (!lineClasses.includes("remove") ||
-                  lineClasses.includes("focused"))) ||
-              (filterRemove && preHasDiff && !lineClasses.includes("remove")) ||
-              (filterFocus && preHasFocused && lineClasses.includes("focused"))
+                !lineClasses.includes("remove") &&
+                lineClasses.includes("focused")) ||
+              (filterRemove &&
+                preHasDiff &&
+                !preHasFocused &&
+                !lineClasses.includes("remove")) ||
+              (filterFocus &&
+                preHasFocused &&
+                !preHasDiff &&
+                lineClasses.includes("focused"))
               ? line.children
                   .map((token) => {
                     return token.children[0].value;

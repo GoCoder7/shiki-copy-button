@@ -1,7 +1,7 @@
 {
   "name": "shiki-transformer-filtered-copy-button",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "fork of shiki-transformer-copy-button with filters",
   "main": "index.js",
   "scripts": {
