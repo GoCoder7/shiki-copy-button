@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "NodeNext",
+    "rootDir": "./src",
+    "declaration": true,
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "moduleResolution": "nodenext",
+    "noUncheckedIndexedAccess": true, // 배열과 객체의 인덱스접근(예. arr[0], fruit["apple"])에 undefined를 추가하도록 강제하여 런타임 고려사항을 컴파일타임으로 이동
+    "noEmit": true // tsc로 컴파일 하지 않고 체크만 하도록 설정
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
+// todo: '/src/index.ts'파일 생성
+
+// package.json 스니펫 만들기
+// {
+//   "name": "${1:패키지명}",
+//   "version": "1.0.0",
+//   "description": "${2:패키지 설명}",
+//   "main": "dist/index.js",
+//   "types": "dist/index.d.ts",
+//   "type": "module",
+//   "files": ["dist"],
+//   "scripts": {
+//     "build": "tsup src/index.ts --format cjs,esm --dts",
+//     "lint": "tsc"
+//   },
+//   "keywords": ["typescript"],
+//   "author": "GoCoder <gocoder7@gmail.com> (https://www.gocoder.xyz)",
+//   "license": "MIT"
+// }
+// todo: typescript와 tsup 패키지를 -D 옵션으로 설치
+// todo: @changesets/cli 패키지를 -D 옵션으로 설치 후 `pnpm changeset init`으로 초기화
+// todo: src/index.ts 파일 생성
+// todo: gitignore에 dist 추가
