@@ -1,6 +1,6 @@
 {
-  "name": "shiki-transformer-filtered-copy-button",
-  "version": "1.1.0",
+  "name": "@gocoder/shiki-copy-button",
+  "version": "1.0.0",
   "description": "fork of shiki-transformer-copy-button with filters",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -29,5 +29,6 @@
     "@changesets/cli": "^2.28.1",
     "@types/hast": "^3.0.4",
     "tsup": "^8.4.0"
-  }
+  },
+  "repository": "github:gocoder7/shiki-copy-button"
 }
