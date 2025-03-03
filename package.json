@@ -1,6 +1,6 @@
 {
   "name": "@gocoder/shiki-copy-button",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "fork of shiki-transformer-copy-button with filters",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
