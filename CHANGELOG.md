@@ -1,5 +1,11 @@
 # shiki-transformer-filtered-copy-button
 
+## 1.0.5
+
+### Patch Changes
+
+-
+
 ## 1.0.4
 
 ### Patch Changes
