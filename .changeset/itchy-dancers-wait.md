@@ -1,3 +1,0 @@
----
-"shiki-copy-button": patch
----
