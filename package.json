@@ -1,6 +1,6 @@
 {
   "name": "shiki-copy-button",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "fork of shiki-transformer-copy-button with filters",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

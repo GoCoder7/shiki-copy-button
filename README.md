@@ -39,13 +39,13 @@ greet("John Doe"); // this line will not be copied
 # Install
 
 ```shell
-pnpm i -D shiki-transformer-filtered-copy-button
+pnpm i -D shiki-copy-button
 ```
 
 # Add Transformer
 
 ```js
-import { addCopyButton } from "shiki-transformer-filtered-copy-button";
+import { addCopyButton } from "shiki-copy-button";
 
 // optional
 const options = {
