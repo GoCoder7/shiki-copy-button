@@ -1,5 +1,11 @@
 # shiki-transformer-filtered-copy-button
 
+## 1.0.4
+
+### Patch Changes
+
+- 898a284: remove package scope '@gocoder'
+
 ## 1.0.3
 
 ### Patch Changes
